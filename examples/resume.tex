@@ -21,7 +21,7 @@
 \documentclass[11pt, a4paper]{awesome-cv}
 
 % Configure page margins with geometry
-\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+\geometry{left=2.5cm, top=2.5cm, right=2.5cm, bottom=3.5cm, footskip=1cm}
 
 % Specify the location of the included fonts
 \fontdir[fonts/]
@@ -29,7 +29,7 @@
 % Color for highlights
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
 %                 awesome-nephritis, awesome-concrete, awesome-darknight
-% \colorlet{awesome}{awesome-emerald}
+% \colorlet{awesome}{awesome-red}
 % Uncomment if you would like to specify your own color
 \definecolor{awesome}{HTML}{8D04A9}
 
@@ -52,7 +52,7 @@
 %	Comment any of the lines below if they are not required
 %-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
-% \photo[rectangle,edge,right]{./examples/profile}
+% \photo[circle,edge,left]{./examples/myfacecropped}
 \name{Dana}{Harrigan}
 % \position{Software Architect{\enskip\cdotp\enskip}Security Expert}
 \address{4857 Broadway, New York, NY, USA}
@@ -73,7 +73,7 @@
 % \googlescholar{googlescholar-id}{}
 \extrainfo{US Citizen}
 
-% \quote{``Be the change that you want to see in the world."}
+\quote{“If you dare nothing, then when the day is over, nothing is all you will have gained.” ― Neil Gaiman, The Graveyard Book}
 
 
 %-------------------------------------------------------------------------------
@@ -87,8 +87,8 @@
 % Leave any of these blank if they are not needed
 \makecvfooter
   {\today}
-  {Résumé}
-  {Dana Harrigan}
+  {Dana Harrigan~~~·~~~Résumé}
+  {\thepage}
 
 
 %-------------------------------------------------------------------------------
@@ -96,12 +96,12 @@
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
 \input{resume/summary.tex}
+\input{resume/education.tex}
 \input{resume/experience.tex}
 % \input{resume/honors.tex}
 % \input{resume/presentation.tex}
 % \input{resume/writing.tex}
 % \input{resume/committees.tex}
-\input{resume/education.tex}
 % \input{resume/extracurricular.tex}
 
 
